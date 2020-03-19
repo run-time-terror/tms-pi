@@ -1,10 +1,5 @@
-from PIL import Image
-import requests
 
-def main():
-    # TODO: add your main event loop here @Sazzat
-    pass
-
+from detect import main
 
 if __name__ == "__main__":
     main()

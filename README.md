@@ -7,9 +7,9 @@ Traffic monitoring system Pi (client) module.
 set up env using virtualenv
 
 ```bash
-virtualenv -p `which python3.7` .env
+virtualenv .env
 
-source .env/bin/activate
+source .env/Scripts/activate
 ```
 
 install requirements
@@ -23,5 +23,3 @@ run client module
 ```bash
 python client.py
 ```
-
-
